@@ -1,0 +1,102 @@
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 544px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  background-image: none;
+  font-size: 6rem;
+  width: 420px;
+  margin: 185px auto 60px;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 241px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 4.5rem;
+    width: auto;
+    margin-top: 60px;
+    margin-right: -13px;
+    margin-left: 33px;
+  }
+}.u-section-2 {
+  background-image: none;
+  min-height: 1505px;
+}
+
+.u-section-2 .u-custom-html-1 {
+  min-height: 228px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-2 .u-text-1 {
+  margin: -156px calc(((100% - 1140px) / 2) + 431px) 0 calc(((100% - 1140px) / 2) + 365px);
+}
+
+.u-section-2 .u-text-2 {
+  margin: 98px calc(((100% - 1140px) / 2) + 335px) 60px calc(((100% - 1140px) / 2) + 461px);
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-custom-html-1 {
+    height: auto;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: 345px;
+    margin-left: calc(((100% - 340px) / 2) + 69px);
+    margin-right: calc(((100% - 340px) / 2) + 69px);
+  }
+
+  .u-section-2 .u-text-2 {
+    width: 345px;
+    margin-left: calc(((100% - 940px) / 2) + 361px);
+    margin-right: calc(((100% - 940px) / 2) + 235px);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-text-2 {
+    margin-left: calc(((100% - 720px) / 2) + 251px);
+    margin-right: calc(((100% - 720px) / 2) + 125px);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-text-2 {
+    margin-left: calc(((100% - 540px) / 2) + 161px);
+    margin-right: calc(((100% - 540px) / 2) + 35px);
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 {
+    min-height: 2398px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: 340px;
+    margin-left: calc(((100% - 340px) / 2));
+    margin-right: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-2 .u-text-2 {
+    width: 340px;
+    margin-left: calc(((100% - 340px) / 2));
+    margin-right: calc(((100% - 340px) / 2));
+  }
+}
